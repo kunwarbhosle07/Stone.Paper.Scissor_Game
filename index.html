@@ -1,0 +1,32 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Stone Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+<body>
+
+<div class="game-container">
+    <h1>Stone Paper Scissors</h1>
+
+    <div class="choices">
+        <button onclick="Game('stone')">Stone</button>
+        <button onclick="Game('paper')">Paper</button>
+        <button onclick="Game('scissors')">Scissors</button>
+    </div>
+
+    <div class="result" id="result">Make your move!</div>
+
+    <div class="score">
+        You: <span id="userScore">0</span> |
+        Computer: <span id="computerScore">0</span>
+    </div>
+
+    <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+</div>
+
+</body>
+</html>
